@@ -6,6 +6,15 @@ let proxX;
 
 let proxY;
 
+let tamanhoCobraPadrao=3;
+
+let tamanhoCobra=tamanhoCobraPadrao;
+
+let caminhoCobra=[];
+
+let cobraX=cobraY=10;
+
+let comidaX=comidaY=15;
 window.onload = function () {
     tela = document.getElementById("canvas");
 
@@ -36,5 +45,10 @@ function keyDownEvent(tecla) {
     if (tecla = 40) {
         proxX = 0;
         proxY = 1;
+
     }
+}
+function desenharJogo() {
+  ctx.fillStyle="#c8d0ae";
+ctx.fillRect=(0,0,tela.width,tela.heigh;)
 }
